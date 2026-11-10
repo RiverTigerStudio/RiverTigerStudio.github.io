@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#1b2525">
+	<meta name="description" data-i18n-content="WEB_META_DESCRIPTION" content="江虎工作室官方网站。探索 Steam 主推作品《灵韵牌：清浊之间》，扫码体验微信小游戏《单词连连》《暗影侵袭》，阅读开发手记或联系工作室。">
+	<title data-i18n="WEB_PAGE_TITLE">江虎工作室 · 独立游戏与微信小游戏</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+	<div class="site-shell">
+		<header class="site-header">
+			<a class="brand" href="#top" aria-label="江虎工作室首页" data-i18n-aria-label="WEB_HOME_LABEL">
+				<span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+				<span class="brand-copy"><strong data-i18n="WEB_STUDIO_NAME">江虎工作室</strong><small data-i18n="WEB_BRAND_EN">JIANGHU STUDIO</small></span>
+			</a>
+			<nav class="main-nav" id="main-navigation" aria-label="主导航" data-i18n-aria-label="WEB_MAIN_NAV">
+				<a href="#top" data-i18n="WEB_NAV_HOME">首页</a>
+				<a href="#mini-games" data-i18n="WEB_NAV_MINI_GAMES">小游戏</a>
+				<a href="#game" data-i18n="WEB_GAME_NAME">灵韵牌</a>
+				<a href="#blog" data-i18n="WEB_NAV_BLOG">博客</a>
+				<a href="#contact" data-i18n="WEB_NAV_CONTACT">合作 / 反馈 / 联系</a>
+			</nav>
+			<a class="nav-cta" href="https://store.steampowered.com/app/5144290" target="_blank" rel="noopener noreferrer" data-i18n="WEB_STEAM">Steam 商店 ↗</a>
+			<select class="language-select" id="language-select" aria-label="选择语言" data-i18n-aria-label="WEB_LANGUAGE"><option value="zh" lang="zh-CN" data-i18n="WEB_LANGUAGE_ZH">简体中文</option><option value="zh_TW" lang="zh-TW" data-i18n="WEB_LANGUAGE_ZH_TW">繁體中文</option><option value="en" lang="en" data-i18n="WEB_LANGUAGE_EN">English</option><option value="ja" lang="ja" data-i18n="WEB_LANGUAGE_JA">日本語</option><option value="ko" lang="ko" data-i18n="WEB_LANGUAGE_KO">한국어</option></select>
+			<button class="menu-toggle" type="button" aria-label="打开导航" data-i18n-aria-label="WEB_MENU_OPEN" aria-controls="main-navigation" aria-expanded="false"><span></span><span></span></button>
+		</header>
+
+		<main>
+			<section class="hero" aria-labelledby="hero-title">
+				<div class="hero-backdrop" aria-hidden="true"></div>
+				<div class="hero-grain" aria-hidden="true"></div>
+				<div class="hero-content">
+					<p class="kicker"><span class="kicker-line"></span><span data-i18n="WEB_HERO_KICKER">江虎工作室 · Steam 主推作品</span></p>
+					<h1 id="hero-title"><b class="hero-name" data-i18n="WEB_GAME_NAME">灵韵牌</b><em>·</em><span data-i18n="WEB_GAME_SUBTITLE">清浊之间</span></h1>
+					<p class="hero-description" data-i18n="WEB_HOME_GENRE">Roguelite · 卡组构筑 · 地牢探索</p>
+					<div class="hero-actions">
+						<a class="button button-primary" href="https://store.steampowered.com/app/5144290" target="_blank" rel="noopener noreferrer" data-i18n="WEB_STEAM_ACTION">前往 Steam 商店 ↗</a>
+						<a class="button button-ghost" href="#game" data-i18n="WEB_DISCOVER_ACTION">先看看游戏 ↓</a>
+					</div>
+				</div>
+				<a class="scroll-cue" href="#game"><span data-i18n="WEB_SCROLL">向下探索</span><i></i></a>
+			</section>
+
+			<section class="section studio-overview" aria-labelledby="overview-title">
+				<div class="overview-heading"><h2 id="overview-title" data-i18n="WEB_HOME_WORKS">作品</h2></div>
+				<div class="overview-grid">
+					<a class="overview-game overview-game-featured" href="#game"><img src="assets/steam/库资产/library_hero_3840x1240_schinese.png" alt="" loading="lazy"><span><small data-i18n="WEB_OVERVIEW_STEAM">STEAM / 主推作品</small><strong data-i18n="WEB_GAME_NAME">灵韵牌</strong></span><b aria-hidden="true">↗</b></a>
+					<a class="overview-game" href="#word-link"><img src="assets/小游戏/单词连连/images_in_use/wx_poster_h_1280_720_01.jpg" alt="" loading="lazy"><span><small data-i18n="WEB_OVERVIEW_WECHAT">WECHAT / 微信小游戏</small><strong data-i18n="WEB_MINI_WORD_TITLE">单词连连</strong></span><b aria-hidden="true">↗</b></a>
+					<a class="overview-game" href="#shadow-assault"><img src="assets/小游戏/暗影侵袭/宣传图.png" alt="" loading="lazy"><span><small data-i18n="WEB_OVERVIEW_WECHAT">WECHAT / 微信小游戏</small><strong data-i18n="WEB_MINI_SHADOW_TITLE">暗影侵袭</strong></span><b aria-hidden="true">↗</b></a>
+				</div>
+			</section>
+
+			<section class="section game-section" id="game" aria-labelledby="game-title">
+				<div class="section-intro">
+					<div><p class="section-label">STEAM</p><h2 id="game-title" data-i18n="WEB_GAME_NAME">灵韵牌</h2></div>
+					<p data-i18n="WEB_HOME_GAME_DESCRIPTION">构筑卡组，探索地牢，在每个回合做出你的选择。</p>
+				</div>
+			</section>
+
+			<section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+				<div class="gallery-heading"><h2 id="gallery-title" data-i18n="WEB_HOME_SCREENSHOTS">游戏实机</h2></div>
+				<div class="gallery-grid">
+					<button class="gallery-card gallery-card-feature" type="button" data-lightbox="assets/steam/截图资产/battle_02_combo_1920×1080_schinese.png" data-caption="战斗 · 连击回合" data-i18n-data-caption="WEB_CAPTION_BATTLE">
+						<img src="assets/steam/截图资产/battle_02_combo_1920×1080_schinese.png" alt="灵韵牌战斗中的连击回合界面" data-i18n-alt="WEB_ALT_BATTLE" loading="lazy">
+						<span class="gallery-caption"><small data-i18n="WEB_GALLERY_BATTLE">战斗</small></span><span class="gallery-plus">+</span>
+					</button>
+					<button class="gallery-card" type="button" data-lightbox="assets/steam/截图资产/dungeon_01_explore_1920×1080_schinese.png" data-caption="探索 · 地牢地图" data-i18n-data-caption="WEB_CAPTION_EXPLORE">
+						<img src="assets/steam/截图资产/dungeon_01_explore_1920×1080_schinese.png" alt="灵韵牌地牢探索地图界面" data-i18n-alt="WEB_ALT_EXPLORE" loading="lazy"><span class="gallery-mini-label"><span data-i18n="WEB_GALLERY_EXPLORE">02 / EXPLORE</span> <i>+</i></span>
+					</button>
+					<button class="gallery-card" type="button" data-lightbox="assets/steam/截图资产/safe_house_01_settlement_1920×1080_schinese.png" data-caption="营地 · 安全屋" data-i18n-data-caption="WEB_CAPTION_REST">
+						<img src="assets/steam/截图资产/safe_house_01_settlement_1920×1080_schinese.png" alt="灵韵牌安全屋和营地界面" data-i18n-alt="WEB_ALT_REST" loading="lazy"><span class="gallery-mini-label"><span data-i18n="WEB_GALLERY_REST">03 / REST</span> <i>+</i></span>
+					</button>
+					<button class="gallery-card" type="button" data-lightbox="assets/steam/截图资产/reward_01_card_choice_1920×1080_schinese.png" data-caption="奖励 · 卡牌选择" data-i18n-data-caption="WEB_CAPTION_REWARD">
+						<img src="assets/steam/截图资产/reward_01_card_choice_1920×1080_schinese.png" alt="灵韵牌战斗胜利后的卡牌选择界面" data-i18n-alt="WEB_ALT_REWARD" loading="lazy"><span class="gallery-mini-label"><span data-i18n="WEB_GALLERY_REWARD">04 / REWARD</span> <i>+</i></span>
+					</button>
+				</div>
+			</section>
+
+			<section class="section mini-games-section" id="mini-games" aria-labelledby="mini-games-title">
+				<div class="mini-games-heading"><h2 id="mini-games-title" data-i18n="WEB_HOME_MINI_TITLE">微信小游戏</h2><p data-i18n="WEB_MINI_QR_HINT">微信扫码游玩</p></div>
+				<div class="mini-game-grid">
+					<article class="mini-game-card" id="word-link">
+						<img class="mini-game-art" src="assets/小游戏/单词连连/images_in_use/wx_promo_h_1920_1080_1.png" alt="单词连连微信小游戏宣传画" data-i18n-alt="WEB_MINI_WORD_ALT" loading="lazy">
+						<div class="mini-game-content">
+							<div class="mini-game-copy"><p class="mini-game-platform" data-i18n="WEB_MINI_WORD_PLATFORM">微信小游戏 · 休闲益智</p><h3 data-i18n="WEB_MINI_WORD_TITLE">单词连连</h3><p data-i18n="WEB_MINI_WORD_DESCRIPTION">一边连连看，一边记单词，把轻松的小游戏和每日积累连在一起。</p></div>
+							<button class="mini-game-qr" type="button" data-lightbox="assets/小游戏/单词连连/单词连连_微信_入口二维码.png" data-caption="单词连连 · 微信小游戏入口" data-i18n-data-caption="WEB_MINI_WORD_CAPTION" aria-label="放大单词连连微信小游戏二维码" data-i18n-aria-label="WEB_MINI_WORD_QR_LABEL"><img src="assets/小游戏/单词连连/单词连连_微信_入口二维码.png" alt="单词连连微信小游戏入口二维码" data-i18n-alt="WEB_MINI_WORD_QR_ALT" loading="lazy"><span data-i18n="WEB_MINI_QR_HINT">微信扫码游玩</span></button>
+						</div>
+					</article>
+					<article class="mini-game-card" id="shadow-assault">
+						<img class="mini-game-art" src="assets/小游戏/暗影侵袭/宣传图.png" alt="暗影侵袭像素风小游戏宣传画" data-i18n-alt="WEB_MINI_SHADOW_ALT" loading="lazy">
+						<div class="mini-game-content">
+							<div class="mini-game-copy"><p class="mini-game-platform" data-i18n="WEB_MINI_SHADOW_PLATFORM">微信小游戏 · 像素生存</p><h3 data-i18n="WEB_MINI_SHADOW_TITLE">暗影侵袭</h3><p data-i18n="WEB_MINI_SHADOW_DESCRIPTION">在像素战场迎战敌人、收集强化，打出属于自己的生存节奏。</p></div>
+							<button class="mini-game-qr" type="button" data-lightbox="assets/小游戏/暗影侵袭/暗影侵袭_微信小游戏_二维码入口.png" data-caption="暗影侵袭 · 微信小游戏入口" data-i18n-data-caption="WEB_MINI_SHADOW_CAPTION" aria-label="放大暗影侵袭微信小游戏二维码" data-i18n-aria-label="WEB_MINI_SHADOW_QR_LABEL"><img src="assets/小游戏/暗影侵袭/暗影侵袭_微信小游戏_二维码入口.png" alt="暗影侵袭微信小游戏入口二维码" data-i18n-alt="WEB_MINI_SHADOW_QR_ALT" loading="lazy"><span data-i18n="WEB_MINI_QR_HINT">微信扫码游玩</span></button>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="journal-section" id="blog" aria-labelledby="blog-title">
+				<div class="journal-inner">
+					<div class="journal-intro"><h2 id="blog-title" data-i18n="WEB_HOME_BLOG_TITLE">开发手记</h2></div>
+					<div class="journal-grid">
+						<article class="journal-entry"><p class="journal-kicker" data-i18n="WEB_BLOG_NOTE_ONE_LABEL">设计札记 / 01</p><h3 data-i18n="WEB_BLOG_NOTE_ONE_TITLE">让连击成为回合的节拍</h3><p data-i18n="WEB_BLOG_NOTE_ONE_BODY">一张牌的价值，常常取决于它和下一张牌的关系。我们更在意玩家如何读取手牌、灵韵与行动顺序，在有限的一回合里拼出自己的解法。</p></article>
+						<article class="journal-entry"><p class="journal-kicker" data-i18n="WEB_BLOG_NOTE_TWO_LABEL">设计札记 / 02</p><h3 data-i18n="WEB_BLOG_NOTE_TWO_TITLE">地图上的每一步都有代价</h3><p data-i18n="WEB_BLOG_NOTE_TWO_BODY">探索不只是战斗之间的过场。选择路线、判断风险与回报，会让每一局冒险走向不同的方向。</p></article>
+						<article class="journal-entry"><p class="journal-kicker" data-i18n="WEB_BLOG_NOTE_THREE_LABEL">美术手记 / 01</p><h3 data-i18n="WEB_BLOG_NOTE_THREE_TITLE">给画面留一点空白</h3><p data-i18n="WEB_BLOG_NOTE_THREE_BODY">东方纸上美学给了我们构图的起点。留白让场景、卡牌与战斗反馈各有位置，也让玩家能在信息与动作之间稍作停顿。</p></article>
+					</div>
+				</div>
+			</section>
+
+			<section class="studio-section" id="studio" aria-labelledby="studio-title">
+				<div class="studio-inner"><span class="studio-seal" aria-hidden="true">江<br>虎</span><div class="studio-copy"><h2 id="studio-title" data-i18n="WEB_STUDIO_NAME">江虎工作室</h2><p data-i18n="WEB_HOME_STUDIO">独立游戏开发，认真做好每一局。</p></div><a class="button button-light" href="#contact" data-i18n="WEB_STUDIO_ACTION">和我们聊聊 →</a></div>
+			</section>
+
+			<section class="section support-section" id="contact" aria-labelledby="support-title">
+				<div class="support-intro"><h2 id="support-title" data-i18n="WEB_NAV_CONTACT">合作 / 反馈 / 联系</h2></div>
+				<div class="support-grid">
+					<button class="support-card support-card-main" type="button" data-dialog="feedback-dialog"><span class="support-card-icon">✦</span><span class="support-card-label" data-i18n="WEB_FEEDBACK_LABEL">玩家反馈</span><strong><span data-i18n="WEB_FEEDBACK_CARD_ONE">告诉我们</span><br><span data-i18n="WEB_FEEDBACK_CARD_TWO">你的下一步想法</span></strong><span class="support-card-action" data-i18n="WEB_FEEDBACK_ACTION">提交反馈 ↗</span></button>
+					<button class="support-card support-card-light" type="button" data-dialog="support-dialog" data-default-category="gameplay"><span class="support-card-icon">↗</span><span class="support-card-label" data-i18n="WEB_SUPPORT_LABEL">客服支持</span><strong><span data-i18n="WEB_SUPPORT_CARD_ONE">需要帮助？</span><br><span data-i18n="WEB_SUPPORT_CARD_TWO">把问题记录下来</span></strong><span class="support-card-action" data-i18n="WEB_SUPPORT_ACTION">填写工单 ↗</span></button>
+					<button class="support-card support-card-coop" type="button" data-dialog="support-dialog" data-default-category="cooperation"><span class="support-card-icon">↗</span><span class="support-card-label" data-i18n="WEB_COOP_LABEL">合作与媒体</span><strong><span data-i18n="WEB_COOP_CARD_ONE">有合作想法？</span><br><span data-i18n="WEB_COOP_CARD_TWO">欢迎和我们聊聊</span></strong><span class="support-card-action" data-i18n="WEB_COOP_ACTION">联系工作室 ↗</span></button>
+				</div>
+				<div class="feedback-wall"><div class="feedback-wall-heading"><div><span class="section-label" data-i18n="WEB_WALL_LABEL">LOCAL DEMO / 本地演示</span><h3 data-i18n="WEB_WALL_TITLE">反馈展示墙</h3></div><span class="feedback-count" id="feedback-count" data-i18n="WEB_LOADING">正在加载</span></div><p class="feedback-demo-note" data-i18n="WEB_WALL_NOTE">下方预置留言为界面示例，并非真实玩家评价。你的演示反馈仅保存在当前浏览器。</p><div class="feedback-list" id="feedback-list" aria-live="polite"></div></div>
+			</section>
+		</main>
+
+		<footer class="site-footer"><div class="footer-brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span data-i18n="WEB_STUDIO_NAME">江虎工作室</span></div><p data-i18n="WEB_FOOTER_NOTE">灵感来自纸上，也来自每一次真实的游玩。</p><div class="footer-links"><a href="https://store.steampowered.com/app/5144290" target="_blank" rel="noopener noreferrer" data-i18n="WEB_FOOTER_STEAM">Steam ↗</a><a href="#contact" data-i18n="WEB_FOOTER_FEEDBACK">反馈 ↗</a><a href="#top" data-i18n="WEB_BACK_TOP">回到顶部 ↑</a></div><small data-i18n="WEB_COPYRIGHT">© 2026 江虎工作室。保留所有权利。</small></footer>
+	</div>
+
+	<dialog class="modal" id="feedback-dialog" aria-labelledby="feedback-dialog-title">
+		<button class="modal-close" type="button" aria-label="关闭" data-i18n-aria-label="WEB_CLOSE">×</button>
+		<div class="modal-kicker" data-i18n="WEB_FEEDBACK_KICKER">PLAYER FEEDBACK / 反馈</div>
+		<h2 id="feedback-dialog-title"><span data-i18n="WEB_FEEDBACK_TITLE_ONE">把这一局的感受，</span><em data-i18n="WEB_FEEDBACK_TITLE_TWO">留给我们。</em></h2>
+		<p class="modal-intro" data-i18n="WEB_FEEDBACK_DEMO">当前为前端演示。反馈只保存在当前浏览器，并显示在本地留言墙，不会发送给工作室。</p>
+		<form id="feedback-form">
+			<label><span data-i18n="WEB_NICKNAME_LABEL">怎么称呼你？</span><input name="nickname" type="text" maxlength="20" placeholder="昵称（可选）" data-i18n-placeholder="WEB_NICKNAME_PLACEHOLDER"></label>
+			<div class="form-row">
+				<label><span data-i18n="WEB_FEEDBACK_CATEGORY">反馈类型</span><select name="category"><option value="experience" data-i18n="WEB_CATEGORY_EXPERIENCE">体验反馈</option><option value="suggestion" data-i18n="WEB_CATEGORY_SUGGESTION">玩法建议</option><option value="bug" data-i18n="WEB_CATEGORY_BUG">问题报告</option><option value="other" data-i18n="WEB_CATEGORY_OTHER">其他</option></select></label>
+				<fieldset class="rating-fieldset"><legend data-i18n="WEB_RATING_LEGEND">这次体验如何？</legend><span class="rating-group" role="radiogroup" aria-label="评分" data-i18n-aria-label="WEB_RATING_LABEL"><input type="radio" name="rating" value="5" id="rate-5" checked><label for="rate-5">5</label><input type="radio" name="rating" value="4" id="rate-4"><label for="rate-4">4</label><input type="radio" name="rating" value="3" id="rate-3"><label for="rate-3">3</label><input type="radio" name="rating" value="2" id="rate-2"><label for="rate-2">2</label><input type="radio" name="rating" value="1" id="rate-1"><label for="rate-1">1</label></span></fieldset>
+			</div>
+			<label><span data-i18n="WEB_FEEDBACK_CONTENT_LABEL">想告诉我们什么？</span><textarea name="content" rows="5" minlength="8" maxlength="500" required placeholder="可以是一张牌、一场战斗，或者任何让你记住的瞬间" data-i18n-placeholder="WEB_FEEDBACK_PLACEHOLDER"></textarea></label>
+			<p class="form-status" role="status" aria-live="polite"></p>
+			<button class="button button-primary button-submit" type="submit" data-i18n="WEB_FEEDBACK_SUBMIT">保存演示反馈 ↗</button>
+		</form>
+	</dialog>
+	<dialog class="modal" id="support-dialog" aria-labelledby="support-dialog-title">
+		<button class="modal-close" type="button" aria-label="关闭" data-i18n-aria-label="WEB_CLOSE">×</button>
+		<div class="modal-kicker" data-i18n="WEB_SUPPORT_KICKER">PLAYER SUPPORT / 客服</div>
+		<h2 id="support-dialog-title"><span data-i18n="WEB_SUPPORT_TITLE_ONE">我们在这儿，</span><em data-i18n="WEB_SUPPORT_TITLE_TWO">听你说。</em></h2>
+		<p class="modal-intro" data-i18n="WEB_SUPPORT_DEMO">当前为客服流程演示。邮箱与问题只保存在当前浏览器，不会发送给工作室，也不会收到邮件回复。请勿填写敏感信息。</p>
+		<form id="support-form">
+			<label><span data-i18n="WEB_EMAIL_LABEL">联系邮箱</span><input name="email" type="email" required placeholder="you@example.com" autocomplete="email"></label>
+			<label><span data-i18n="WEB_SUPPORT_CATEGORY">问题类型</span><select name="category"><option value="gameplay" data-i18n="WEB_CATEGORY_GAMEPLAY">游戏问题</option><option value="purchase" data-i18n="WEB_CATEGORY_PURCHASE">账号与购买</option><option value="technical" data-i18n="WEB_CATEGORY_TECHNICAL">技术支持</option><option value="cooperation" data-i18n="WEB_CATEGORY_COOPERATION">合作洽谈</option><option value="other" data-i18n="WEB_CATEGORY_OTHER">其他</option></select></label>
+			<label><span data-i18n="WEB_SUPPORT_CONTENT_LABEL">问题描述</span><textarea name="message" rows="5" minlength="8" maxlength="600" required placeholder="请尽可能描述发生了什么" data-i18n-placeholder="WEB_SUPPORT_PLACEHOLDER"></textarea></label>
+			<p class="form-status" role="status" aria-live="polite"></p>
+			<output id="support-result" aria-live="polite"></output>
+			<button class="button button-primary button-submit" type="submit" data-i18n="WEB_SUPPORT_SUBMIT">创建演示工单 ↗</button>
+		</form>
+	</dialog>
+	<dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption"><button class="lightbox-close" type="button" aria-label="关闭图片预览" data-i18n-aria-label="WEB_LIGHTBOX_CLOSE">×</button><figure><img alt=""><figcaption id="lightbox-caption"></figcaption><a class="qr-download" download hidden data-i18n="WEB_QR_DOWNLOAD">保存二维码</a></figure></dialog>
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+	<script src="i18n.js"></script><script src="mock-api.js"></script><script src="app.js"></script>
+</body>
+</html>
